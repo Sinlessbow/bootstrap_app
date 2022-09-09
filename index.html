@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+  <div class="container-fluid bg-primary">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Platillos favoritos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Descripción</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Recetas</a></li>
+                  <li><a class="dropdown-item" href="#">Historia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Ver más</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-info btn" href="#" tabindex="-1" aria-disabled="true">Ayuda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/platillos3.jpg" class="d-block w-100" alt="Platillos" width="1344" height="600">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Platillos principales</h5>
+            <p>Se hablará de el platillo favorito enfocado en la comida.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/postres.jpg" class="d-block w-100" alt="Postres" width="1344" height="600">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Postre favorito</h5>
+            <p>Se hablará del postre favorito.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/aperitivos.jpg" class="d-block w-100" alt="Aperitivos" width="1344" height="600">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Aperitivo</h5>
+            <p>Se hablará del aperitivo favorito previo a la comida.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h1>Presentando mis platillos favoritos incluyendo postres y aperitivos</h1>
+          <ul class="list-group">
+            <li class="list-group-item">Enchiladas verdes</li>
+            <li class="list-group-item">Enchiladas rojas</li>
+            <li class="list-group-item">Helado de fresa</li>
+            <li class="list-group-item">Carpaccio de salmón</li>
+            <li class="list-group-item">Carpaccio de camarón</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-4 mt-5"><div class="card" style="width: 25rem;">
+
+        <img src="./images/enchiladas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Enchiladas</h5>
+          <p class="card-text">Las enchiladas son un plato de la gastronomía de México y Centroamérica, en cada país la preparación e ingredientes son diferentes, 
+            en México se elabora con tortillas de maíz enrolladas o dobladas y bañadas en alguna salsa picante.​</p>
+          <a href="#" class="btn btn-outline-info">Investigar más</a>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-4 mt-5"><div class="card" style="width: 25rem;">
+        <img src="./images/helado.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Helado de fresa</h5>
+          <p class="card-text">El helado de fresa es un helado hecho con fresa o sus correspondientes saborizantes. Está hecho a partir de la mezcla de la fresa con huevos, crema, vainilla y azúcar​.</p>
+          <a href="#" class="btn btn-outline-info">Investigar más</a>
+        </div>
+       </div></div>
+      <div class="col-12 col-md-4 mt-5"><div class="card" style="width: 25rem;">
+        <img src="./images/carpaccio.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Carpaccio de salmón</h5>
+          <p class="card-text">El carpaccio es una preparación de carne cruda, finamente cortada o majada hasta quedar fina, servida principalmente como aperitivo.</p>
+          <a href="#" class="btn btn-outline-info">Investigar más</a>
+        </div>
+       </div></div>
+    </div>
+
+    <div class="row  mt-5">
+      <div class="col-12 col-md-9">
+        <h2>¿Porqué esta clase de platillos son mis favortitos?</h2>
+          <p>Esta clase de platillos tienden a ser mis favoritos debido a su alta demanda en el mercado gastronómico aquí en México, 
+            al igual que los ingredientes que contienen cada platillo convirtiendolos en uno de mis favoritos</p>
+          <p>También otro motivo importante por los cuales considero favoritos estos platillos son por su facil preparación al momento de servir 
+            en cualquier tipo de momento.
+          </p>
+
+              <div>
+                <button type="button" class="btn btn-primary">Descripción</button>
+                <button type="button" class="btn btn-outline-dark">Ver más</button>
+              </div>
+      </div>
+      <div class="col-12 col-md-3 mt-5 mt-md-0">
+        <img src="./images/platillos2.jpg" class="img-fluid rounded-top">
+      </div>
+      
+    </div>
+
+    <div class="row justify-content-center mt-5 pb-5">
+      <div class="col-12 col-md-7">
+        <h2>Manda un e-mail para más información</h2>
+      <input type="text" class="form-control">
+      <input type="text" class="form-control">
+      <textarea name="" class="form-control"></textarea>
+      <div class="mt-2">
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+      </div>
+
+    </div>
+    </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
